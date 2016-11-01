@@ -1,75 +1,75 @@
 Producao Tecnica e Tecnologica
 ------------------------------
 
-Desenvolvimento de software para uso institucional, recebe o mÈtodo PontosPorRelato = "5.0" a "10.0" pontos
+Desenvolvimento de software para uso institucional, recebe o m√©todo PontosPorRelato = "5.0" a "10.0" pontos
 
-PontosPorRelato v·lidos
+PontosPorRelato v√°lidos
 -----------------------
 
 * PontosPorRelato receber 5 pontos
 
-PontosPorRelato inv·lidos
+PontosPorRelato inv√°lidos
 -------------------------
 
 * PontosPorRelato receber 4 pontos 
 
-ParticipaÁ„o em comitÍ editorial de periÛdicos especializados indexados e de editoras universit·rias recebe
+Participa√ß√£o em comit√™ editorial de peri√≥dicos especializados indexados e de editoras universit√°rias recebe
 ExpressaoPorRelato = 10 * (dias / 30)  / 12. 
-FunÁ„o: dias
+Fun√ß√£o: dias
 dias: diferencaDatas { inicio, fim }
 
-ExpressaoPorRelato v·lida
+ExpressaoPorRelato v√°lida
 -------------------------
 
 * dias = "15"
 
-ExpressaoPorRelato inv·lida
+ExpressaoPorRelato inv√°lida
 ---------------------------
 
 * dias = "-2"
 
 producaoTecnica recebe a Soma de todas as linhas dessa tabela.
 
-producaoTecnica v·lida
+producaoTecnica v√°lida
 ----------------------
 
 *
 
-producaoTecnica inv·lida
+producaoTecnica inv√°lida
 ------------------------
 
 *
 
-Atividades de Pesquisa e Extens„o
+Atividades de Pesquisa e Extens√£o
 =================================
 
-ConsolidaÁ„o
+Consolida√ß√£o
 ------------
 
 atividadesPesquisaExtensao =  atividadesCoordenacao + atividadesExtensao
 
-atividadesPesquisaExtensao v·lida
+atividadesPesquisaExtensao v√°lida
 ---------------------------------
 
 * atividadesCoordenacao + atividadesExtensao >= 0
 
-atividadesPesquisaExtensao inv·lida
+atividadesPesquisaExtensao inv√°lida
 -----------------------------------
 
 * atividadesCoordenacao + atividadesExtensao < 0
 
-Atividades Administrativas e de RepresentaÁ„o
+Atividades Administrativas e de Representa√ß√£o
 =============================================
 
-DireÁ„o e funÁ„o gratificada
+Dire√ß√£o e fun√ß√£o gratificada
 ----------------------------
 
 chefeGabinete recebe ExpressaoPorRelato = 10 * (dias / 30)
 Classe: IV-1-2
-FunÁ„o: dias
+Fun√ß√£o: dias
 dias: diferencaDatas { inicio, fim }
 
-direcao recebe a soma de todas as parcelas de direÁ„o
+direcao recebe a soma de todas as parcelas de dire√ß√£o
 
 Atividades administrativas
 --------------------------
@@ -78,19 +78,19 @@ portariaMaior150 recebe ExpressaoPorRelato = 10 * ch / 150
 Classe: IV-2-5
 ValorMaximo: 10
 
-portariaMaior150 v·lida
+portariaMaior150 v√°lida
 -----------------------
 
 * ch >= "15"
 
-portariaMaior150 inv·lida
+portariaMaior150 inv√°lida
 -------------------------
 
 * ch <= "0"
 
 atividadesAdministrativas recebe a  soma de todas as parcelas de "Atividades administrativas"
 
-PromoÁ„o
+Promo√ß√£o
 ========
 
 Atividades administrativas
@@ -105,84 +105,84 @@ notaFinal = somaPonderada / totalMeses
 
 Inciso I especifica que a mediaEnsinoGraduacao >= 40
 
-mediaEnsinoGraduacao v·lida
+mediaEnsinoGraduacao v√°lida
 ---------------------------
 
 * mediaEnsinoGraduacao = "45"
 
-mediaEnsinoGraduacao inv·lida
+mediaEnsinoGraduacao inv√°lida
 -----------------------------
 
 * mediaEnsinoGraduacao = "39"
 
 Inciso II especifica que a mediaEnsino >= 80
 
-mediaEnsino v·lida
+mediaEnsino v√°lida
 ------------------
 
 * mediaEnsino = "81"
 
-mediaEnsino inv·lida
+mediaEnsino inv√°lida
 --------------------
 
 * mediaEnsino = "79"
 
 Inciso III especifica que a mediaProducaoIntelectual >= 20
 
-mediaProducaoIntelectual v·lida
+mediaProducaoIntelectual v√°lida
 -------------------------------
 
 * mediaProducaoIntelectual = "20"
 
-mediaProducaoIntelectual inv·lida
+mediaProducaoIntelectual inv√°lida
 ---------------------------------
 
 * mediaProducaoIntelectual = "15"
 
 Inciso IV especifica que a mediaDisciente >= 5
 
-mediaDisciente v·lida
+mediaDisciente v√°lida
 ---------------------
 
 mediaDisciente = "8"
 
-mediaDisciente inv·lida
+mediaDisciente inv√°lida
 -----------------------
 
 mediaDisciente = "1"
 
-Inciso V especifica que para acontecer a aprovaÁ„o da chefia, a notaChefia >= 5
+Inciso V especifica que para acontecer a aprova√ß√£o da chefia, a notaChefia >= 5
 
-notaChefia v·lida
+notaChefia v√°lida
 -----------------
 
 notaChefia = "6.5"
 
-notaChefia inv·lida
+notaChefia inv√°lida
 -------------------
 
 notaChefia = "4.9" 
 
 Inciso VI especifica que a notaFinal >= 7.5
 
-notaFinal v·lida
+notaFinal v√°lida
 ----------------
 
 notaFinal = "7.5"
 
-notaFinal inv·lida
+notaFinal inv√°lida
 ----------------
 
 notaFinal = "7.4"
 
 habilitacaoParcial recebe a soma dos Incisos I + II + III + IV + V + VI
 
-habilitacaoEstagio recebe a Express„o: estagioPosdoutoralOuSenior 
+habilitacaoEstagio recebe a Express√£o: estagioPosdoutoralOuSenior 
 ? III & V & VI : false
 
-habilitacaoCargoOuPos recebe a express„o cargoDeDirecao || posGraduando ? VI : false
+habilitacaoCargoOuPos recebe a express√£o cargoDeDirecao || posGraduando ? VI : false
 
-Para estar habilitado para promoÁ„o, o habilitado recebe a express„o habilitacaoParcial ||
+Para estar habilitado para promo√ß√£o, o habilitado recebe a express√£o habilitacaoParcial ||
 habilitacaoEstagio || habilitacaoCargoOuPos
 
 somaEnsino = Inciso I
