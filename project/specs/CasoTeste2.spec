@@ -1,17 +1,17 @@
 Producao Tecnica e Tecnologica
-------------------------------
+==============================
 
 Desenvolvimento de software para uso institucional, recebe o método PontosPorRelato = "5.0" a "10.0" pontos
 
 PontosPorRelato válidos
 -----------------------
 
-* PontosPorRelato receber 5 pontos
+* PontosPorRelato = "5.0"
 
 PontosPorRelato inválidos
 -------------------------
 
-* PontosPorRelato receber 4 pontos 
+* PontosPorRelato = "4.0" 
 
 Participação em comitê editorial de periódicos especializados indexados e de editoras universitárias recebe
 ExpressaoPorRelato = 10 * (dias / 30)  / 12. 
@@ -33,36 +33,30 @@ producaoTecnica recebe a Soma de todas as linhas dessa tabela.
 producaoTecnica válida
 ----------------------
 
-*
+* ?
 
 producaoTecnica inválida
 ------------------------
 
-*
-
-Atividades de Pesquisa e Extensão
-=================================
+* ?
 
 Consolidação
-------------
+============
 
 atividadesPesquisaExtensao =  atividadesCoordenacao + atividadesExtensao
 
 atividadesPesquisaExtensao válida
 ---------------------------------
 
-* atividadesCoordenacao + atividadesExtensao >= 0
+* atividadesCoordenacao + atividadesExtensao >= "0"
 
 atividadesPesquisaExtensao inválida
 -----------------------------------
 
-* atividadesCoordenacao + atividadesExtensao < 0
-
-Atividades Administrativas e de Representação
-=============================================
+* atividadesCoordenacao + atividadesExtensao < "0"
 
 Direção e função gratificada
-----------------------------
+============================
 
 chefeGabinete recebe ExpressaoPorRelato = 10 * (dias / 30)
 Classe: IV-1-2
@@ -72,7 +66,7 @@ dias: diferencaDatas { inicio, fim }
 direcao recebe a soma de todas as parcelas de direção
 
 Atividades administrativas
---------------------------
+==========================
 
 portariaMaior150 recebe ExpressaoPorRelato = 10 * ch / 150
 Classe: IV-2-5
@@ -90,10 +84,8 @@ portariaMaior150 inválida
 
 atividadesAdministrativas recebe a  soma de todas as parcelas de "Atividades administrativas"
 
-Promoção
-========
-
 Atividades administrativas
+==========================
 
 totalMeses = Somatorio numeroMeses
 
