@@ -148,3 +148,35 @@ Total time taken: 626ms
 21:54:13.554 Scenarios:	2 executed	2 passed	0 failed	5 skipped
 21:54:13.556 
 Total time taken: 536ms
+19:25:56.682 Checking updates...
+19:26:04.362 # Specification Heading
+19:26:04.364 ## Vowel counts in single word
+19:26:04.366 * Vowels in English language are "aeiou".
+
+19:26:04.382 * The word "gauge" has "3" vowels.
+
+19:26:04.389 ## Vowel counts in multiple word
+19:26:04.390 * Vowels in English language are "aeiou".
+
+19:26:04.392 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+19:26:04.699 Plugin [Html Report] with pid [11472] has exited
+19:26:04.800 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:26:04.800 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+19:26:04.804 
+Total time taken: 954ms
+19:26:48.237 Checking updates...
+19:26:48.637 No specifications found in html-reports.
+19:26:55.201 Checking updates...
+19:26:55.511 No specifications found in html-report.
+19:28:42.289 Gathering metadata for html-report
+19:28:43.352 Plugin html-report 2.1.1 is already installed.
+19:29:51.303 Checking updates...
+19:29:51.531 No specifications found in go, run, build/make.go.
