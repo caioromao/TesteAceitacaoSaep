@@ -1,182 +1,1205 @@
-15:45:39.329 Checking updates...
-15:45:47.443 # Specification Heading
-15:45:47.446 ## Vowel counts in single word
-15:45:47.451 * Vowels in English language are "aeiou".
+10:51:58.573 Got a kill message. Killing runner.
+10:52:02.578 Killing runner with PID:5284 forcefully
+10:54:01.983 Checking updates...
+10:54:04.906 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+10:54:04.912 # Specification Heading
+10:54:04.912 ## Vowel counts in single word
+10:54:04.914 * Vowels in English language are "aeiou".
 
-15:45:47.477 * The word "gauge" has "3" vowels.
+10:54:04.936 * The word "gauge" has "3" vowels.
 
-15:45:47.486 ## Vowel counts in multiple word
-15:45:47.488 * Vowels in English language are "aeiou".
+10:54:05.042 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:54:05.042 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:54:05.042 
+Total time taken: 35ms
+10:54:28.187 Checking updates...
+10:54:31.064 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+10:54:31.069 # Specification Heading
+10:54:31.070 ## Vowel counts in single word
+10:54:31.070 * Vowels in English language are "aeiou".
 
-15:45:47.489 * Almost all words have vowels 
+10:54:31.080 * The word "gauge" has "3" vowels.
 
-     |Word  |Vowel Count|
-     |------|-----------|
-     |Gauge |3          |
-     |Mingle|2          |
-     |Snap  |1          |
-     |GoCD  |1          |
-     |Rhythm|0          |
-15:45:51.415 Plugin [Html Report] with pid [5728] has exited
-15:45:51.516 Specifications:	1 executed	1 passed	0 failed	0 skipped
-15:45:51.516 Scenarios:	2 executed	2 passed	0 failed	0 skipped
-15:45:51.518 
-Total time taken: 878ms
-21:48:05.497 [ParseError] C:\Users\eliez\Desktop\project\specs\example.spec:37 Multiple spec headings found in same file => 'Classe relato'
-21:48:06.929 Checking updates...
-21:48:17.051 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:45: Step implementation not found => 'O ano deve conter "4" digitos'
-21:48:17.052 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:50: Step implementation not found => 'O docente pode ter regime de "20" horas'
-21:48:17.052 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:51: Step implementation not found => 'O docente pode ter regime de "40" horas'
-21:48:17.053 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:52: Step implementation not found => 'O docente classificado como "DE" tem regime de "40" horas'
-21:48:17.053 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:57: Step implementation not found => 'nome pode ter espaços ""'
-21:48:17.054 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:58: Step implementation not found => 'nome nao pode ter numeros "0123456789"'
-21:48:17.056 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:59: Step implementation not found => 'nome nao pode ter caratcteres especiais "*/-&%$#@!)({}"'
-21:48:17.063 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:64: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:48:17.076 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:65: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:48:17.078 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:70: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:48:17.079 [ValidationError] C:\Users\eliez\Desktop\project\specs\example.spec:71: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:49:52.901 Checking updates...
-21:49:57.266 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:9: Step implementation not found => 'O ano deve conter "4" digitos'
-21:49:57.266 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:14: Step implementation not found => 'O docente pode ter regime de "20" horas'
-21:49:57.269 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:15: Step implementation not found => 'O docente pode ter regime de "40" horas'
-21:49:57.270 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:16: Step implementation not found => 'O docente classificado como "DE" tem regime de "40" horas'
-21:49:57.271 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:21: Step implementation not found => 'nome pode ter espaços ""'
-21:49:57.272 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:22: Step implementation not found => 'nome nao pode ter numeros "0123456789"'
-21:49:57.288 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:23: Step implementation not found => 'nome nao pode ter caratcteres especiais "*/-&%$#@!)({}"'
-21:49:57.294 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:28: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:49:57.296 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:29: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:49:57.298 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:34: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:49:57.299 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:35: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:49:58.462 # Specification Heading
-21:49:58.465 ## Vowel counts in single word
-21:49:58.467 * Vowels in English language are "aeiou".
+10:54:31.185 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:54:31.185 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:54:31.185 
+Total time taken: 21ms
+13:32:36.723 Checking updates...
+13:32:41.580 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:32:41.588 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:12 No steps found in scenario
+13:32:41.588 # Specification Heading
+13:32:41.691 Specifications:	0 executed	0 passed	0 failed	1 skipped
+13:32:41.691 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+13:32:41.691 
+Total time taken: 11ms
+13:33:27.875 Checking updates...
+13:33:32.662 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:33:32.668 # Specification Heading
+13:33:32.668 ## Vowel counts in single word
+13:33:32.669 * Vowels in English language are "aeiou".
 
-21:49:58.500 * The word "gauge" has "3" vowels.
+13:33:32.680 * The word "gauge" has "3" vowels.
 
-21:49:58.527 ## Vowel counts in multiple word
-21:49:58.529 * Vowels in English language are "aeiou".
+13:33:32.785 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:33:32.785 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:33:32.785 
+Total time taken: 22ms
+13:34:20.457 Checking updates...
+13:34:24.111 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:34:24.116 # Specification Heading
+13:34:24.116 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:10 No steps found in scenario
+13:34:24.219 Specifications:	0 executed	0 passed	0 failed	1 skipped
+13:34:24.219 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+13:34:24.219 
+Total time taken: 7ms
+13:37:09.499 Checking updates...
+13:37:12.879 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:37:12.884 # Specification Heading
+13:37:12.885 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:10 No steps found in scenario
+13:37:12.987 Specifications:	0 executed	0 passed	0 failed	1 skipped
+13:37:12.987 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+13:37:12.987 
+Total time taken: 7ms
+13:37:24.171 Checking updates...
+13:37:27.331 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:37:27.336 # Specification Heading
+13:37:27.336 ## Vowel counts in single word
+13:37:27.336 * Vowels in English language are "aeiou".
 
-21:49:58.531 * Almost all words have vowels 
+13:37:27.349 * The word "gauge" has "3" vowels.
 
-     |Word  |Vowel Count|
-     |------|-----------|
-     |Gauge |3          |
-     |Mingle|2          |
-     |Snap  |1          |
-     |GoCD  |1          |
-     |Rhythm|0          |
-21:49:58.856 Plugin [Html Report] with pid [11164] has exited
-21:49:58.959 Specifications:	1 executed	1 passed	0 failed	1 skipped
-21:49:58.959 Scenarios:	2 executed	2 passed	0 failed	5 skipped
-21:49:58.961 
-Total time taken: 1.24s
-21:50:17.098 Checking updates...
-21:50:18.633 No specifications found in specs\exemple.spec.
-21:50:41.612 Checking updates...
-21:50:42.863 No specifications found in specs\exemple.
-21:53:12.807 Checking updates...
-21:53:14.220 No specifications found in specs/exemple.
-21:53:28.343 Checking updates...
-21:53:30.103 No specifications found in specs/example.
-21:53:45.634 Checking updates...
-21:53:49.914 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:9: Step implementation not found => 'O ano deve conter "4" digitos'
-21:53:49.914 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:14: Step implementation not found => 'O docente pode ter regime de "20" horas'
-21:53:49.916 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:15: Step implementation not found => 'O docente pode ter regime de "40" horas'
-21:53:49.917 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:16: Step implementation not found => 'O docente classificado como "DE" tem regime de "40" horas'
-21:53:49.917 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:21: Step implementation not found => 'nome pode ter espaços ""'
-21:53:49.918 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:22: Step implementation not found => 'nome nao pode ter numeros "0123456789"'
-21:53:49.918 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:23: Step implementation not found => 'nome nao pode ter caratcteres especiais "*/-&%$#@!)({}"'
-21:53:49.919 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:28: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:53:49.920 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:29: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:53:49.920 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:34: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:53:49.921 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:35: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:53:50.479 # Specification Heading
-21:53:50.481 ## Vowel counts in single word
-21:53:50.483 * Vowels in English language are "aeiou".
+13:37:27.455 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:37:27.455 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:37:27.455 
+Total time taken: 23ms
+13:38:12.754 Checking updates...
+13:38:16.201 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:38:16.206 # Specification Heading
+13:38:16.206 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:10 No steps found in scenario
+13:38:16.307 Specifications:	0 executed	0 passed	0 failed	1 skipped
+13:38:16.307 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+13:38:16.307 
+Total time taken: 6ms
+13:40:09.637 Checking updates...
+13:40:13.181 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:40:13.186 # Specification Heading
+13:40:13.186 ## Vowel counts in single word
+13:40:13.187 * Vowels in English language are "aeiou".
 
-21:53:50.514 * The word "gauge" has "3" vowels.
+13:40:13.199 * The word "gauge" has "3" vowels.
 
-21:53:50.520 ## Vowel counts in multiple word
-21:53:50.526 * Vowels in English language are "aeiou".
+13:40:13.306 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:40:13.306 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:40:13.306 
+Total time taken: 23ms
+13:40:17.394 Checking updates...
+13:40:26.320 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:40:26.326 # Specification Heading
+13:40:26.327 ## Vowel counts in single word
+13:40:26.327 * Vowels in English language are "aeiou".
 
-21:53:50.534 * Almost all words have vowels 
+13:41:31.516 Checking updates...
+13:41:35.067 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:41:35.073 # Specification Heading
+13:41:35.073 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:10 No steps found in scenario
+13:41:35.174 Specifications:	0 executed	0 passed	0 failed	1 skipped
+13:41:35.174 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+13:41:35.174 
+Total time taken: 7ms
+13:41:49.569 Checking updates...
+13:41:52.861 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:41:52.868 # Specification Heading
+13:41:52.868 ## Vowel counts in single word
+13:41:52.869 * Vowels in English language are "aeiou".
 
-     |Word  |Vowel Count|
-     |------|-----------|
-     |Gauge |3          |
-     |Mingle|2          |
-     |Snap  |1          |
-     |GoCD  |1          |
-     |Rhythm|0          |
-21:53:50.649 Plugin [Html Report] with pid [9172] has exited
-21:53:50.751 Specifications:	1 executed	1 passed	0 failed	1 skipped
-21:53:50.751 Scenarios:	2 executed	2 passed	0 failed	5 skipped
-21:53:50.753 
-Total time taken: 626ms
-21:54:09.128 Checking updates...
-21:54:12.797 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:9: Step implementation not found => 'O ano deve conter "4" digitos'
-21:54:12.797 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:14: Step implementation not found => 'O docente pode ter regime de "20" horas'
-21:54:12.802 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:15: Step implementation not found => 'O docente pode ter regime de "40" horas'
-21:54:12.804 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:16: Step implementation not found => 'O docente classificado como "DE" tem regime de "40" horas'
-21:54:12.805 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:21: Step implementation not found => 'nome pode ter espaços ""'
-21:54:12.806 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:22: Step implementation not found => 'nome nao pode ter numeros "0123456789"'
-21:54:12.806 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:23: Step implementation not found => 'nome nao pode ter caratcteres especiais "*/-&%$#@!)({}"'
-21:54:12.807 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:28: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:54:12.807 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:29: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:54:12.808 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:34: Step implementation not found => 'data deve conter o formato "DD/MM/AAAA"'
-21:54:12.809 [ValidationError] C:\Users\eliez\Desktop\project\specs\CasoTeste.spec:35: Step implementation not found => 'data no formato "DD/MM/AA" e invalida'
-21:54:13.287 # Specification Heading
-21:54:13.289 ## Vowel counts in single word
-21:54:13.291 * Vowels in English language are "aeiou".
+13:41:52.881 * The word "gauge" has "3" vowels.
 
-21:54:13.320 * The word "gauge" has "3" vowels.
+13:41:52.986 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:41:52.986 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:41:52.986 
+Total time taken: 24ms
+13:48:03.916 Checking updates...
+13:48:07.284 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:48:07.290 # Specification Heading
+13:48:07.291 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:10 No steps found in scenario
+13:48:07.392 Specifications:	0 executed	0 passed	0 failed	1 skipped
+13:48:07.392 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+13:48:07.392 
+Total time taken: 8ms
+13:49:34.235 Checking updates...
+13:49:42.487 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+13:49:42.493 # Specification Heading
+13:49:42.493 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:10 No steps found in scenario
+13:49:42.597 Specifications:	0 executed	0 passed	0 failed	1 skipped
+13:49:42.597 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+13:49:42.597 
+Total time taken: 10ms
+14:20:24.773 Checking updates...
+14:20:27.991 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:15: Step implementation not found => 'Pontuacao nas Aulas de Ensino a Distancia com chaeadg "200".'
+14:20:27.992 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:20: Step implementation not found => 'Pontuacao Aulas Presenciais Pos-Graduacao com chapg "200"'
+14:20:27.992 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:25: Step implementation not found => 'Pontuacao ensino a distancia na Pos-Graduacao com chaeadpg "200"'
+14:20:27.992 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:30: Step implementation not found => 'Somatoria pontos presenciais e a distancia pos-graduacao <table>'
+14:20:27.992 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+14:20:27.998 # Specification Heading
+14:20:27.999 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:39 No steps found in scenario
+14:20:28.100 Specifications:	0 executed	0 passed	0 failed	1 skipped
+14:20:28.100 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+14:20:28.100 
+Total time taken: 8ms
+14:20:49.383 Checking updates...
+14:20:52.546 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:16: Step implementation not found => 'Pontuacao nas Aulas de Ensino a Distancia com chaeadg "200".'
+14:20:52.546 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:21: Step implementation not found => 'Pontuacao Aulas Presenciais Pos-Graduacao com chapg "200"'
+14:20:52.546 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:26: Step implementation not found => 'Pontuacao ensino a distancia na Pos-Graduacao com chaeadpg "200"'
+14:20:52.546 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:31: Step implementation not found => 'Somatoria pontos presenciais e a distancia pos-graduacao <table>'
+14:20:52.546 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+14:20:52.551 # Specification Heading
+14:20:52.552 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:40 No steps found in scenario
+14:20:52.653 Specifications:	0 executed	0 passed	0 failed	1 skipped
+14:20:52.653 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+14:20:52.653 
+Total time taken: 6ms
+14:21:08.578 Checking updates...
+14:21:12.101 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:16: Step implementation not found => 'Pontuacao nas Aulas de Ensino a Distancia com chaeadg "200".'
+14:21:12.101 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:21: Step implementation not found => 'Pontuacao Aulas Presenciais Pos-Graduacao com chapg "200"'
+14:21:12.101 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:26: Step implementation not found => 'Pontuacao ensino a distancia na Pos-Graduacao com chaeadpg "200"'
+14:21:12.101 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:31: Step implementation not found => 'Somatoria pontos presenciais e a distancia pos-graduacao <table>'
+14:21:12.102 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+14:21:12.107 # Specification Heading
+14:21:12.108 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:40 No steps found in scenario
+14:21:12.210 Specifications:	0 executed	0 passed	0 failed	1 skipped
+14:21:12.210 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+14:21:12.210 
+Total time taken: 7ms
+14:21:29.071 Checking updates...
+14:21:31.133 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+14:21:31.138 # Specification Heading
+14:21:31.139 ## Vowel counts in single word
+14:21:31.139 * Vowels in English language are "aeiou".
 
-21:54:13.326 ## Vowel counts in multiple word
-21:54:13.327 * Vowels in English language are "aeiou".
+14:21:31.150 * The word "gauge" has "3" vowels.
 
-21:54:13.329 * Almost all words have vowels 
+14:21:31.256 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:21:31.256 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:21:31.256 
+Total time taken: 22ms
+14:23:58.004 Checking updates...
+14:24:06.415 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+14:24:06.421 # Specification Heading
+14:24:06.422 ## Vowel counts in single word
+14:24:06.422 * Vowels in English language are "aeiou".
 
-     |Word  |Vowel Count|
-     |------|-----------|
-     |Gauge |3          |
-     |Mingle|2          |
-     |Snap  |1          |
-     |GoCD  |1          |
-     |Rhythm|0          |
-21:54:13.453 Plugin [Html Report] with pid [11132] has exited
-21:54:13.554 Specifications:	1 executed	1 passed	0 failed	1 skipped
-21:54:13.554 Scenarios:	2 executed	2 passed	0 failed	5 skipped
-21:54:13.556 
-Total time taken: 536ms
-19:25:56.682 Checking updates...
-19:26:04.362 # Specification Heading
-19:26:04.364 ## Vowel counts in single word
-19:26:04.366 * Vowels in English language are "aeiou".
+14:25:29.097 * The word "gauge" has "3" vowels.
 
-19:26:04.382 * The word "gauge" has "3" vowels.
+14:25:57.614 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:25:57.614 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:25:57.614 
+Total time taken: 1m51.098s
+14:27:55.321 Checking updates...
+14:28:02.987 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+14:28:02.993 # Specification Heading
+14:28:02.994 ## Vowel counts in single word
+14:28:02.994 * Vowels in English language are "aeiou".
 
-19:26:04.389 ## Vowel counts in multiple word
-19:26:04.390 * Vowels in English language are "aeiou".
+14:28:33.323 * The word "gauge" has "3" vowels.
 
-19:26:04.392 * Almost all words have vowels 
+14:28:45.060 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:28:45.060 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:28:45.060 
+Total time taken: 41.972s
+14:54:09.637 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:9 Dynamic parameter <200> could not be resolved => 'Carga horaria graduacao aulas presenciais <200>.'
+14:54:09.638 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:16 Dynamic parameter <100> could not be resolved => 'Carga horaria graduacao aulas a distancia <100>.'
+14:54:09.638 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:28 Dynamic parameter <100> could not be resolved => 'Carga horaria pos-graduacao aulas presenciais <100>.'
+14:54:09.638 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:30 Dynamic parameter <50> could not be resolved => 'Carga horaria pos-graduacao aulas a distancia <50>.'
+14:54:11.169 Checking updates...
+14:54:14.265 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:18: Step implementation not found => 'Calcular pontuacao em aulas a distancia graduacao'
+14:54:14.265 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:23: Step implementation not found => 'Calcular pontuacao graduacao.'
+14:54:14.265 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:32: Step implementation not found => 'Calcular pontuacao em aulas presenciais pos-graducao.'
+14:54:14.265 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:37: Step implementation not found => 'Calcular pontuação em aulas a distancia pos-graduacao.'
+14:54:14.265 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:42: Step implementation not found => 'Calcular pontuacao pos-graduacao.'
+14:54:14.265 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:46: Step implementation not found => 'Calcular pontuacao atividade de ensino.'
+14:55:13.743 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:9 Dynamic parameter <200> could not be resolved => 'Carga horaria graduacao aulas presenciais <200>.'
+14:55:13.743 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:16 Dynamic parameter <100> could not be resolved => 'Carga horaria graduacao aulas a distancia <100>.'
+14:55:13.743 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:28 Dynamic parameter <100> could not be resolved => 'Carga horaria pos-graduacao aulas presenciais <100>.'
+14:55:13.743 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:30 Dynamic parameter <50> could not be resolved => 'Carga horaria pos-graduacao aulas a distancia <50>.'
+14:55:14.947 Checking updates...
+14:55:18.339 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:18: Step implementation not found => 'Calcular pontuacao em aulas a distancia graduacao'
+14:55:18.340 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:23: Step implementation not found => 'Calcular pontuacao graduacao.'
+14:55:18.340 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:32: Step implementation not found => 'Calcular pontuacao em aulas presenciais pos-graducao.'
+14:55:18.340 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:37: Step implementation not found => 'Calcular pontuação em aulas a distancia pos-graduacao.'
+14:55:18.340 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:42: Step implementation not found => 'Calcular pontuacao pos-graduacao.'
+14:55:18.340 [ValidationError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:46: Step implementation not found => 'Calcular pontuacao atividade de ensino.'
+15:15:19.215 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:9 Dynamic parameter <200> could not be resolved => 'Carga horaria graduacao aulas presenciais <200>.'
+15:15:19.215 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:16 Dynamic parameter <100> could not be resolved => 'Carga horaria graduacao aulas a distancia <100>.'
+15:15:19.215 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:28 Dynamic parameter <100> could not be resolved => 'Carga horaria pos-graduacao aulas presenciais <100>.'
+15:15:19.215 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:30 Dynamic parameter <50> could not be resolved => 'Carga horaria pos-graduacao aulas a distancia <50>.'
+15:15:20.662 Checking updates...
+15:15:34.860 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:28 Dynamic parameter <100> could not be resolved => 'Carga horaria pos-graduacao aulas presenciais <100>.'
+15:15:34.860 [ParseError] C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:30 Dynamic parameter <50> could not be resolved => 'Carga horaria pos-graduacao aulas a distancia <50>.'
+15:15:35.918 Checking updates...
+15:15:58.338 Checking updates...
+15:16:01.820 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+15:16:01.826 # Specification Heading
+15:16:01.826 ## Calcular pontuacao em aulas presenciais graduacao
+15:16:01.827 * Carga horaria graduacao aulas presenciais "200".
 
-     |Word  |Vowel Count|
-     |------|-----------|
-     |Gauge |3          |
-     |Mingle|2          |
-     |Snap  |1          |
-     |GoCD  |1          |
-     |Rhythm|0          |
-19:26:04.699 Plugin [Html Report] with pid [11472] has exited
-19:26:04.800 Specifications:	1 executed	1 passed	0 failed	0 skipped
-19:26:04.800 Scenarios:	2 executed	2 passed	0 failed	0 skipped
-19:26:04.804 
-Total time taken: 954ms
-19:26:48.237 Checking updates...
-19:26:48.637 No specifications found in html-reports.
-19:26:55.201 Checking updates...
-19:26:55.511 No specifications found in html-report.
-19:28:42.289 Gathering metadata for html-report
-19:28:43.352 Plugin html-report 2.1.1 is already installed.
-19:29:51.303 Checking updates...
-19:29:51.531 No specifications found in go, run, build/make.go.
+15:16:01.837 * Calcular pontuacao em aulas presenciais graducao
+
+15:16:02.373 
+Failed Step: Calcular pontuacao em aulas presenciais graducao
+15:16:02.373 Specification: specs\atividade_ensino.spec:11
+15:16:02.373 Error Message: java.lang.AssertionError: expected:<100> but was:<62>
+15:16:02.373 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepAtividadeEnsino.calcularPontuacaoAulasPrsenciaisGraduacao(StepAtividadeEnsino.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:16:02.374 ## Calcular pontuacao em aulas a distancia graduacao
+15:16:02.376 * Carga horaria graduacao aulas presenciais "200".
+
+15:16:02.376 * Calcular pontuacao em aulas presenciais graducao
+
+15:16:02.611 
+Failed Step: Calcular pontuacao em aulas presenciais graducao
+15:16:02.612 Specification: specs\atividade_ensino.spec:11
+15:16:02.612 Error Message: java.lang.AssertionError: expected:<100> but was:<62>
+15:16:02.612 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepAtividadeEnsino.calcularPontuacaoAulasPrsenciaisGraduacao(StepAtividadeEnsino.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:16:02.612 ## Calcular pontos ensino graduacao
+15:16:02.613 * Carga horaria graduacao aulas presenciais "200".
+
+15:16:02.613 * Calcular pontuacao em aulas presenciais graducao
+
+15:16:02.876 
+Failed Step: Calcular pontuacao em aulas presenciais graducao
+15:16:02.876 Specification: specs\atividade_ensino.spec:11
+15:16:02.876 Error Message: java.lang.AssertionError: expected:<100> but was:<62>
+15:16:02.876 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepAtividadeEnsino.calcularPontuacaoAulasPrsenciaisGraduacao(StepAtividadeEnsino.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:16:02.877 ## Calcular pontuacao em aulas presenciais pos-graduacao
+15:16:02.877 * Carga horaria graduacao aulas presenciais "200".
+
+15:16:02.878 * Calcular pontuacao em aulas presenciais graducao
+
+15:16:03.163 
+Failed Step: Calcular pontuacao em aulas presenciais graducao
+15:16:03.163 Specification: specs\atividade_ensino.spec:11
+15:16:03.163 Error Message: java.lang.AssertionError: expected:<100> but was:<62>
+15:16:03.163 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepAtividadeEnsino.calcularPontuacaoAulasPrsenciaisGraduacao(StepAtividadeEnsino.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:16:03.163 ## Calcular pontuacao em aulas a distancia pos-graduacao
+15:16:03.164 * Carga horaria graduacao aulas presenciais "200".
+
+15:16:03.166 * Calcular pontuacao em aulas presenciais graducao
+
+15:16:03.461 
+Failed Step: Calcular pontuacao em aulas presenciais graducao
+15:16:03.461 Specification: specs\atividade_ensino.spec:11
+15:16:03.461 Error Message: java.lang.AssertionError: expected:<100> but was:<62>
+15:16:03.461 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepAtividadeEnsino.calcularPontuacaoAulasPrsenciaisGraduacao(StepAtividadeEnsino.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:16:03.461 ## Calcular pontuacao pos-graduacao
+15:16:03.464 * Carga horaria graduacao aulas presenciais "200".
+
+15:16:03.466 * Calcular pontuacao em aulas presenciais graducao
+
+15:16:03.922 
+Failed Step: Calcular pontuacao em aulas presenciais graducao
+15:16:03.922 Specification: specs\atividade_ensino.spec:11
+15:16:03.922 Error Message: java.lang.AssertionError: expected:<100> but was:<62>
+15:16:03.922 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepAtividadeEnsino.calcularPontuacaoAulasPrsenciaisGraduacao(StepAtividadeEnsino.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:16:03.922 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:47 No steps found in scenario
+15:16:04.725 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:16:04.725 Scenarios:	6 executed	0 passed	6 failed	1 skipped
+15:16:04.725 
+Total time taken: 2.102s
+15:17:37.889 Checking updates...
+15:17:39.651 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+15:17:39.656 # Specification Heading
+15:17:39.656 ## Calcular pontuacao em aulas presenciais graduacao
+15:17:39.657 * Carga horaria graduacao aulas presenciais "200".
+
+15:17:39.666 * Calcular pontuacao em aulas presenciais graducao
+
+15:17:39.669 * Carga horaria graduacao aulas a distancia "100".
+
+15:17:39.670 * Calcular pontuacao em aulas a distancia graduacao
+
+15:17:40.268 
+Failed Step: Calcular pontuacao em aulas a distancia graduacao
+15:17:40.268 Specification: specs\atividade_ensino.spec:18
+15:17:40.268 Error Message: java.lang.AssertionError: expected:<62> but was:<31>
+15:17:40.268 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+org.junit.Assert.assertEquals(Assert.java:631)
+StepAtividadeEnsino.calcularPontuacaoAulasADistanciaGraduacao(StepAtividadeEnsino.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:96)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:77)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:58)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+15:17:40.269 ## Calcular pontuacao em aulas a distancia graduacao
+15:17:40.270 * Carga horaria graduacao aulas presenciais "200".
+
+15:17:40.270 * Calcular pontuacao em aulas presenciais graducao
+
+15:17:40.271 * Calcular pontuacao graduacao.
+
+15:17:40.272 ## Calcular pontos ensino graduacao
+15:17:40.272 * Carga horaria graduacao aulas presenciais "200".
+
+15:17:40.272 * Calcular pontuacao em aulas presenciais graducao
+
+15:17:40.273 * Carga horaria pos-graduacao aulas presenciais "100".
+
+15:17:40.274 * Carga horaria pos-graduacao aulas a distancia "50".
+
+15:17:40.275 * Calcular pontuacao em aulas presenciais pos-graducao.
+
+15:17:40.277 ## Calcular pontuacao em aulas presenciais pos-graduacao
+15:17:40.278 * Carga horaria graduacao aulas presenciais "200".
+
+15:17:40.278 * Calcular pontuacao em aulas presenciais graducao
+
+15:17:40.279 * Calcular pontuação em aulas a distancia pos-graduacao.
+
+15:17:40.280 ## Calcular pontuacao em aulas a distancia pos-graduacao
+15:17:40.280 * Carga horaria graduacao aulas presenciais "200".
+
+15:17:40.280 * Calcular pontuacao em aulas presenciais graducao
+
+15:17:40.281 * Calcular pontuacao pos-graduacao.
+15:17:40.282 ## Calcular pontuacao pos-graduacao
+15:17:40.282 * Carga horaria graduacao aulas presenciais "200".
+
+15:17:40.283 * Calcular pontuacao em aulas presenciais graducao
+
+15:17:40.284 * Calcular pontuacao atividade de ensino.
+15:17:40.284 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:47 No steps found in scenario
+15:17:40.988 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:17:40.988 Scenarios:	6 executed	5 passed	1 failed	1 skipped
+15:17:40.988 
+Total time taken: 633ms
+15:18:38.657 Checking updates...
+15:18:42.378 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+15:18:42.384 # Specification Heading
+15:18:42.385 ## Calcular pontuacao em aulas presenciais graduacao
+15:18:42.385 * Carga horaria graduacao aulas presenciais "200".
+
+15:18:42.395 * Calcular pontuacao em aulas presenciais graducao
+
+15:18:42.398 * Carga horaria graduacao aulas a distancia "100".
+
+15:18:42.399 * Calcular pontuacao em aulas a distancia graduacao
+
+15:18:42.400 ## Calcular pontuacao em aulas a distancia graduacao
+15:18:42.401 * Carga horaria graduacao aulas presenciais "200".
+
+15:18:42.402 * Calcular pontuacao em aulas presenciais graducao
+
+15:18:42.402 * Calcular pontuacao graduacao.
+
+15:18:42.403 ## Calcular pontos ensino graduacao
+15:18:42.404 * Carga horaria graduacao aulas presenciais "200".
+
+15:18:42.404 * Calcular pontuacao em aulas presenciais graducao
+
+15:18:42.405 * Carga horaria pos-graduacao aulas presenciais "100".
+
+15:18:42.405 * Carga horaria pos-graduacao aulas a distancia "50".
+
+15:18:42.406 * Calcular pontuacao em aulas presenciais pos-graducao.
+
+15:18:42.407 ## Calcular pontuacao em aulas presenciais pos-graduacao
+15:18:42.407 * Carga horaria graduacao aulas presenciais "200".
+
+15:18:42.408 * Calcular pontuacao em aulas presenciais graducao
+
+15:18:42.408 * Calcular pontuação em aulas a distancia pos-graduacao.
+
+15:18:42.409 ## Calcular pontuacao em aulas a distancia pos-graduacao
+15:18:42.409 * Carga horaria graduacao aulas presenciais "200".
+
+15:18:42.410 * Calcular pontuacao em aulas presenciais graducao
+
+15:18:42.410 * Calcular pontuacao pos-graduacao.
+15:18:42.412 ## Calcular pontuacao pos-graduacao
+15:18:42.413 * Carga horaria graduacao aulas presenciais "200".
+
+15:18:42.414 * Calcular pontuacao em aulas presenciais graducao
+
+15:18:42.414 * Calcular pontuacao atividade de ensino.
+15:18:42.415 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:47 No steps found in scenario
+15:18:42.517 Specifications:	1 executed	1 passed	0 failed	0 skipped
+15:18:42.517 Scenarios:	6 executed	6 passed	0 failed	1 skipped
+15:18:42.517 
+Total time taken: 37ms
+16:29:17.772 Checking updates...
+16:29:21.036 Unable to start plugin html-report. Plugin html-report is not installed. To install, run `gauge --install html-report`.
+16:29:21.045 # Specification Heading
+16:29:21.045 ## Calcular pontuacao em aulas presenciais graduacao
+16:29:21.046 * Carga horaria graduacao aulas presenciais "200".
+
+16:29:21.061 * Calcular pontuacao em aulas presenciais graducao
+
+16:29:21.064 * Carga horaria graduacao aulas a distancia "100".
+
+16:29:21.065 * Calcular pontuacao em aulas a distancia graduacao
+
+16:29:21.067 ## Calcular pontuacao em aulas a distancia graduacao
+16:29:21.067 * Carga horaria graduacao aulas presenciais "200".
+
+16:29:21.068 * Calcular pontuacao em aulas presenciais graducao
+
+16:29:21.068 * Calcular pontuacao graduacao.
+
+16:29:21.069 ## Calcular pontos ensino graduacao
+16:29:21.070 * Carga horaria graduacao aulas presenciais "200".
+
+16:29:21.070 * Calcular pontuacao em aulas presenciais graducao
+
+16:29:21.071 * Carga horaria pos-graduacao aulas presenciais "100".
+
+16:29:21.072 * Carga horaria pos-graduacao aulas a distancia "50".
+
+16:29:21.072 * Calcular pontuacao em aulas presenciais pos-graducao.
+
+16:29:21.073 ## Calcular pontuacao em aulas presenciais pos-graduacao
+16:29:21.074 * Carga horaria graduacao aulas presenciais "200".
+
+16:29:21.074 * Calcular pontuacao em aulas presenciais graducao
+
+16:29:21.075 * Calcular pontuação em aulas a distancia pos-graduacao.
+
+16:29:21.075 ## Calcular pontuacao em aulas a distancia pos-graduacao
+16:29:21.075 * Carga horaria graduacao aulas presenciais "200".
+
+16:29:21.076 * Calcular pontuacao em aulas presenciais graducao
+
+16:29:21.077 * Calcular pontuacao pos-graduacao.
+16:29:21.077 ## Calcular pontuacao pos-graduacao
+16:29:21.078 * Carga horaria graduacao aulas presenciais "200".
+
+16:29:21.078 * Calcular pontuacao em aulas presenciais graducao
+
+16:29:21.079 * Calcular pontuacao atividade de ensino.
+16:29:21.080 C:\Users\Pablo Henrique\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:47 No steps found in scenario
+16:29:21.180 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:29:21.180 Scenarios:	6 executed	6 passed	0 failed	1 skipped
+16:29:21.180 
+Total time taken: 44ms
+18:20:29.307 Got a kill message. Killing runner.
+18:20:33.351 Killing runner with PID:12640 forcefully
+20:40:13.896 Got a kill message. Killing runner.
+20:40:17.918 Killing runner with PID:3008 forcefully
+20:46:08.774 Checking updates...
+20:46:12.584 # Specification Heading
+20:46:12.585 ## Calcular pontuacao em aulas presenciais graduacao
+20:46:12.586 * Carga horaria graduacao aulas presenciais "200".
+
+20:46:12.599 * Calcular pontuacao em aulas presenciais graducao
+
+20:46:12.602 * Carga horaria graduacao aulas a distancia "100".
+
+20:46:12.603 * Calcular pontuacao em aulas a distancia graduacao
+
+20:46:16.724 Plugin [Html Report] with pid [1272] has exited
+20:46:16.724 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:46:16.724 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+20:46:16.724 
+Total time taken: 977ms
+20:46:16.724 Updates are available. Run gauge --check-updates for more info.
+20:47:56.183 Checking updates...
+20:48:00.685 # Specification Heading
+20:48:00.685 ## Calcular pontuacao em aulas presenciais graduacao
+20:48:00.686 * Carga horaria graduacao aulas presenciais "200".
+
+20:48:00.764 * Calcular pontuacao em aulas presenciais graducao
+
+20:48:00.769 * Carga horaria graduacao aulas a distancia "100".
+
+20:48:00.772 * Calcular pontuacao em aulas a distancia graduacao
+
+20:48:00.877 Plugin [Html Report] with pid [7120] has exited
+20:48:00.877 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:48:00.877 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+20:48:00.877 
+Total time taken: 1.025s
+20:48:00.877 Updates are available. Run gauge --check-updates for more info.
+20:48:09.342 Checking updates...
+20:48:12.767 # Specification Heading
+20:48:12.768 ## Calcular pontuacao em aulas presenciais graduacao
+20:48:12.768 * Carga horaria graduacao aulas presenciais "200".
+
+20:48:12.781 * Calcular pontuacao em aulas presenciais graducao
+
+20:48:12.784 * Carga horaria graduacao aulas a distancia "100".
+
+20:48:12.785 * Calcular pontuacao em aulas a distancia graduacao
+
+20:48:12.888 Plugin [Html Report] with pid [5992] has exited
+20:48:12.888 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:48:12.888 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+20:48:12.888 
+Total time taken: 361ms
+20:51:18.680 Checking updates...
+20:51:23.628 # Specification Heading
+20:51:23.628 ## Calcular pontuacao em aulas presenciais graduacao
+20:51:23.629 * Carga horaria graduacao aulas presenciais "200".
+
+20:51:23.656 * Calcular pontuacao em aulas presenciais graducao
+
+20:51:23.659 * Carga horaria graduacao aulas a distancia "100".
+
+20:51:23.660 * Calcular pontuacao em aulas a distancia graduacao
+
+20:51:23.764 Plugin [Html Report] with pid [2264] has exited
+20:51:23.764 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:51:23.764 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+20:51:23.764 
+Total time taken: 401ms
+20:51:23.764 Updates are available. Run gauge --check-updates for more info.
+20:51:43.455 Checking updates...
+20:51:48.800 # Specification Heading
+20:51:48.801 ## Calcular pontuacao em aulas presenciais graduacao
+20:51:48.802 * Carga horaria graduacao aulas presenciais "200".
+
+20:51:48.814 * Calcular pontuacao em aulas presenciais graducao
+
+20:51:48.817 * Carga horaria graduacao aulas a distancia "100".
+
+20:51:48.818 * Calcular pontuacao em aulas a distancia graduacao
+
+20:51:48.921 Plugin [Html Report] with pid [2864] has exited
+20:51:48.921 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:51:48.921 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+20:51:48.921 
+Total time taken: 391ms
+20:51:48.921 Updates are available. Run gauge --check-updates for more info.
+20:52:53.607 Checking updates...
+20:52:56.513 No specifications found in /specs.
+20:53:04.195 Checking updates...
+20:53:04.987 No specifications found in \specs.
+20:53:29.929 Checking updates...
+20:53:30.640 No specifications found in /specs.
+20:53:58.890 Checking updates...
+20:53:59.578 No specifications found in \specs.
+20:54:06.765 Checking updates...
+20:54:07.328 No specifications found in /specs.
+20:56:08.066 Checking updates...
+20:56:10.165 # Specification Heading
+20:56:10.165 ## Calcular pontuacao em aulas presenciais graduacao
+20:56:10.166 * Carga horaria graduacao aulas presenciais "200".
+
+20:56:10.179 * Calcular pontuacao em aulas presenciais graducao
+
+20:56:10.182 * Carga horaria graduacao aulas a distancia "100".
+
+20:56:10.184 * Calcular pontuacao em aulas a distancia graduacao
+
+20:56:10.187 ## Calcular pontuacao em aulas a distancia graduacao
+20:56:10.187 * Carga horaria graduacao aulas presenciais "200".
+
+20:56:10.191 * Calcular pontuacao em aulas presenciais graducao
+
+20:56:10.193 * Calcular pontuacao graduacao.
+
+20:56:10.195 ## Calcular pontos ensino graduacao
+20:56:10.195 * Carga horaria graduacao aulas presenciais "200".
+
+20:56:10.196 * Calcular pontuacao em aulas presenciais graducao
+
+20:56:10.197 * Carga horaria pos-graduacao aulas presenciais "100".
+
+20:56:10.200 * Carga horaria pos-graduacao aulas a distancia "50".
+
+20:56:10.202 * Calcular pontuacao em aulas presenciais pos-graducao.
+
+20:56:10.205 ## Calcular pontuacao em aulas presenciais pos-graduacao
+20:56:10.206 * Carga horaria graduacao aulas presenciais "200".
+
+20:56:10.207 * Calcular pontuacao em aulas presenciais graducao
+
+20:56:10.208 * Calcular pontuação em aulas a distancia pos-graduacao.
+
+20:56:10.210 ## Calcular pontuacao em aulas a distancia pos-graduacao
+20:56:10.210 * Carga horaria graduacao aulas presenciais "200".
+
+20:56:10.211 * Calcular pontuacao em aulas presenciais graducao
+
+20:56:10.212 * Calcular pontuacao pos-graduacao.
+20:56:10.213 ## Calcular pontuacao pos-graduacao
+20:56:10.213 * Carga horaria graduacao aulas presenciais "200".
+
+20:56:10.214 * Calcular pontuacao em aulas presenciais graducao
+
+20:56:10.215 * Calcular pontuacao atividade de ensino.
+20:56:10.216 C:\Users\eliez\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:45 No steps found in scenario
+20:56:10.216 # Producao Intelectual Cientifica
+20:56:10.217 ## Calcular pontos artigo completo
+20:56:10.217 * Informar artigo qualis "artigoQualis".
+20:56:10.219 * Informar artigo sem qualis "artigoSemQualis".
+20:56:10.221 * Calcular artigo completo.
+
+20:56:10.222 * Informar periodicos especializados "periodicosEspecializados".
+20:56:10.223 * Informar textos Literarios "textoLiterario"
+20:56:10.224 * Calcular Pontuacao textos literarios "10".
+
+20:56:10.225 * Informar resumo expedito internacional "resumo".
+20:56:10.226 * Informar resumo expedito nacional "resumo".
+20:56:10.227 * informar resumo expedito regional "resumo".
+20:56:10.229 * calcular somatorio dos resumos "pontuacaoMaxima".
+
+20:56:10.275 Failed Step: calcular somatorio dos resumos "pontuacaoMaxima".
+20:56:10.276 Error Message: Failed to convert argument from type String to type int. For input string: "pontuacaoMaxima"
+20:56:10.276 Specification: specs\producao_intelectual_cientifica.spec:20
+20:56:10.276 Stacktrace: 
+java.lang.NumberFormatException: For input string: "pontuacaoMaxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:56:10.277 ## Calcular somatoria dos resumos
+20:56:10.278 * Informar artigo qualis "artigoQualis".
+20:56:10.279 * Informar artigo sem qualis "artigoSemQualis".
+20:56:10.280 * Calcular artigo completo.
+
+20:56:10.281 * Informar simples internacional "simples".
+20:56:10.281 * Informar simples nacional "simples".
+20:56:10.282 * informar simples regional "simples".
+20:56:10.287 * calcular somatorio dos resumos simples "pontuacaoMaxima".
+
+20:56:10.289 Failed Step: calcular somatorio dos resumos simples "pontuacaoMaxima".
+20:56:10.289 Error Message: Failed to convert argument from type String to type int. For input string: "pontuacaoMaxima"
+20:56:10.289 Specification: specs\producao_intelectual_cientifica.spec:28
+20:56:10.289 Stacktrace: 
+java.lang.NumberFormatException: For input string: "pontuacaoMaxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:56:10.290 ## Calcular somatorio resumos simples
+20:56:10.292 * Informar artigo qualis "artigoQualis".
+20:56:10.293 * Informar artigo sem qualis "artigoSemQualis".
+20:56:10.294 * Calcular artigo completo.
+
+20:56:10.295 * Informar trabalho completo publicado em anais de congresso cientifico "trabalho".
+20:56:10.301 * Informar editor de livro publicado "editor".
+20:56:10.302 * Informar livro publicado com corpo da editora "livro".
+20:56:10.304 * Informar livro sem selo editora "livro".
+20:56:10.306 * Informar capitulo do livro publicado com corpo da editora "livro".
+20:56:10.307 * Calular pontuacao capitulo do livro publicado com corpo da editora "Pontuacao Maxima"
+
+20:56:10.308 Failed Step: Calular pontuacao capitulo do livro publicado com corpo da editora "Pontuacao Maxima"
+20:56:10.308 Error Message: Failed to convert argument from type String to type int. For input string: "Pontuacao Maxima"
+20:56:10.308 Specification: specs\producao_intelectual_cientifica.spec:38
+20:56:10.308 Stacktrace: 
+java.lang.NumberFormatException: For input string: "Pontuacao Maxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:56:10.309 ## calcular pontuacao do somatorio de jornais e revistar
+20:56:10.310 * Informar artigo qualis "artigoQualis".
+20:56:10.314 * Informar artigo sem qualis "artigoSemQualis".
+20:56:10.316 * Calcular artigo completo.
+
+20:56:10.317 * Informar disertacao mestrado defendica e aprovada "Disertacao".
+20:56:10.317 * Informar tese de doutorado defendia e aprovada "Tese".
+
+20:56:10.319 * Calcular soma de todas as producaoes cientificas.
+20:56:10.321 C:\Users\eliez\IdeaProjects\TestesAceitacao\specs\producao_intelectual_cientifica.spec:60 No steps found in scenario
+20:56:10.428 Plugin [Html Report] with pid [6060] has exited
+20:56:10.528 Specifications:	2 executed	1 passed	1 failed	0 skipped
+20:56:10.528 Scenarios:	10 executed	7 passed	3 failed	2 skipped
+20:56:10.528 
+Total time taken: 525ms
+20:56:10.529 Updates are available. Run gauge --check-updates for more info.
+21:15:58.548 Checking updates...
+21:16:10.877 # Specification Heading
+21:16:10.904 ## Calcular pontuacao em aulas presenciais graduacao
+21:16:10.906 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:10.916 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:10.919 * Carga horaria graduacao aulas a distancia "100".
+
+21:16:10.921 * Calcular pontuacao em aulas a distancia graduacao
+
+21:16:10.923 ## Calcular pontuacao em aulas a distancia graduacao
+21:16:10.924 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:10.925 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:10.926 * Calcular pontuacao graduacao.
+
+21:16:10.927 ## Calcular pontos ensino graduacao
+21:16:10.928 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:10.931 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:10.932 * Carga horaria pos-graduacao aulas presenciais "100".
+
+21:16:10.933 * Carga horaria pos-graduacao aulas a distancia "50".
+
+21:16:10.934 * Calcular pontuacao em aulas presenciais pos-graducao.
+
+21:16:10.935 ## Calcular pontuacao em aulas presenciais pos-graduacao
+21:16:10.935 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:10.936 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:10.937 * Calcular pontuação em aulas a distancia pos-graduacao.
+
+21:16:10.938 ## Calcular pontuacao em aulas a distancia pos-graduacao
+21:16:10.938 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:10.939 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:10.940 * Calcular pontuacao pos-graduacao.
+21:16:10.941 ## Calcular pontuacao pos-graduacao
+21:16:10.942 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:10.942 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:10.943 * Calcular pontuacao atividade de ensino.
+21:16:10.945 C:\Users\eliez\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:45 No steps found in scenario
+21:16:10.947 # Producao Intelectual Cientifica
+21:16:10.951 ## Calcular pontos artigo completo
+21:16:10.952 * Informar artigo qualis "artigoQualis".
+21:16:10.954 * Informar artigo sem qualis "artigoSemQualis".
+21:16:10.955 * Calcular artigo completo.
+
+21:16:10.956 * Informar periodicos especializados "periodicosEspecializados".
+21:16:10.958 * Informar textos Literarios "textoLiterario"
+21:16:10.959 * Calcular Pontuacao textos literarios "10".
+
+21:16:10.960 * Informar resumo expedito internacional "resumo".
+21:16:10.960 * Informar resumo expedito nacional "resumo".
+21:16:10.961 * informar resumo expedito regional "resumo".
+21:16:10.962 * calcular somatorio dos resumos "pontuacaoMaxima".
+
+21:16:11.177 Failed Step: calcular somatorio dos resumos "pontuacaoMaxima".
+21:16:11.177 Error Message: Failed to convert argument from type String to type int. For input string: "pontuacaoMaxima"
+21:16:11.177 Specification: specs\producao_intelectual_cientifica.spec:20
+21:16:11.177 Stacktrace: 
+java.lang.NumberFormatException: For input string: "pontuacaoMaxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+21:16:11.179 ## Calcular somatoria dos resumos
+21:16:11.180 * Informar artigo qualis "artigoQualis".
+21:16:11.182 * Informar artigo sem qualis "artigoSemQualis".
+21:16:11.183 * Calcular artigo completo.
+
+21:16:11.185 * Informar simples internacional "simples".
+21:16:11.189 * Informar simples nacional "simples".
+21:16:11.190 * informar simples regional "simples".
+21:16:11.193 * calcular somatorio dos resumos simples "pontuacaoMaxima".
+
+21:16:11.197 Failed Step: calcular somatorio dos resumos simples "pontuacaoMaxima".
+21:16:11.197 Error Message: Failed to convert argument from type String to type int. For input string: "pontuacaoMaxima"
+21:16:11.197 Specification: specs\producao_intelectual_cientifica.spec:28
+21:16:11.197 Stacktrace: 
+java.lang.NumberFormatException: For input string: "pontuacaoMaxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+21:16:11.198 ## Calcular somatorio resumos simples
+21:16:11.199 * Informar artigo qualis "artigoQualis".
+21:16:11.200 * Informar artigo sem qualis "artigoSemQualis".
+21:16:11.201 * Calcular artigo completo.
+
+21:16:11.202 * Informar trabalho completo publicado em anais de congresso cientifico "trabalho".
+21:16:11.203 * Informar editor de livro publicado "editor".
+21:16:11.203 * Informar livro publicado com corpo da editora "livro".
+21:16:11.204 * Informar livro sem selo editora "livro".
+21:16:11.205 * Informar capitulo do livro publicado com corpo da editora "livro".
+21:16:11.206 * Calular pontuacao capitulo do livro publicado com corpo da editora "Pontuacao Maxima"
+
+21:16:11.210 Failed Step: Calular pontuacao capitulo do livro publicado com corpo da editora "Pontuacao Maxima"
+21:16:11.210 Error Message: Failed to convert argument from type String to type int. For input string: "Pontuacao Maxima"
+21:16:11.210 Specification: specs\producao_intelectual_cientifica.spec:38
+21:16:11.210 Stacktrace: 
+java.lang.NumberFormatException: For input string: "Pontuacao Maxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+21:16:11.211 ## calcular pontuacao do somatorio de jornais e revistar
+21:16:11.213 * Informar artigo qualis "artigoQualis".
+21:16:11.214 * Informar artigo sem qualis "artigoSemQualis".
+21:16:11.215 * Calcular artigo completo.
+
+21:16:11.215 * Informar disertacao mestrado defendica e aprovada "Disertacao".
+21:16:11.216 * Informar tese de doutorado defendia e aprovada "Tese".
+
+21:16:11.217 * Calcular soma de todas as producaoes cientificas.
+21:16:11.221 C:\Users\eliez\IdeaProjects\TestesAceitacao\specs\producao_intelectual_cientifica.spec:60 No steps found in scenario
+21:16:11.927 Plugin [Html Report] with pid [6008] has exited
+21:16:12.029 Specifications:	2 executed	1 passed	1 failed	0 skipped
+21:16:12.029 Scenarios:	10 executed	7 passed	3 failed	2 skipped
+21:16:12.032 
+Total time taken: 1.314s
+21:16:12.033 Updates are available. Run gauge --check-updates for more info.
+21:16:34.831 Checking updates...
+21:16:43.123 # Specification Heading
+21:16:43.124 ## Calcular pontuacao em aulas presenciais graduacao
+21:16:43.125 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:43.159 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:43.173 * Carga horaria graduacao aulas a distancia "100".
+
+21:16:43.175 * Calcular pontuacao em aulas a distancia graduacao
+
+21:16:43.178 ## Calcular pontuacao em aulas a distancia graduacao
+21:16:43.179 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:43.179 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:43.180 * Calcular pontuacao graduacao.
+
+21:16:43.184 ## Calcular pontos ensino graduacao
+21:16:43.184 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:43.185 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:43.186 * Carga horaria pos-graduacao aulas presenciais "100".
+
+21:16:43.187 * Carga horaria pos-graduacao aulas a distancia "50".
+
+21:16:43.188 * Calcular pontuacao em aulas presenciais pos-graducao.
+
+21:16:43.189 ## Calcular pontuacao em aulas presenciais pos-graduacao
+21:16:43.190 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:43.191 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:43.193 * Calcular pontuação em aulas a distancia pos-graduacao.
+
+21:16:43.195 ## Calcular pontuacao em aulas a distancia pos-graduacao
+21:16:43.195 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:43.196 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:43.197 * Calcular pontuacao pos-graduacao.
+21:16:43.198 ## Calcular pontuacao pos-graduacao
+21:16:43.198 * Carga horaria graduacao aulas presenciais "200".
+
+21:16:43.199 * Calcular pontuacao em aulas presenciais graducao
+
+21:16:43.200 * Calcular pontuacao atividade de ensino.
+21:16:43.201 C:\Users\eliez\IdeaProjects\TestesAceitacao\specs\atividade_ensino.spec:45 No steps found in scenario
+21:16:43.202 # Producao Intelectual Cientifica
+21:16:43.202 ## Calcular pontos artigo completo
+21:16:43.203 * Informar artigo qualis "artigoQualis".
+21:16:43.204 * Informar artigo sem qualis "artigoSemQualis".
+21:16:43.204 * Calcular artigo completo.
+
+21:16:43.205 * Informar periodicos especializados "periodicosEspecializados".
+21:16:43.206 * Informar textos Literarios "textoLiterario"
+21:16:43.207 * Calcular Pontuacao textos literarios "10".
+
+21:16:43.210 * Informar resumo expedito internacional "resumo".
+21:16:43.211 * Informar resumo expedito nacional "resumo".
+21:16:43.212 * informar resumo expedito regional "resumo".
+21:16:43.213 * calcular somatorio dos resumos "pontuacaoMaxima".
+
+21:16:43.555 Failed Step: calcular somatorio dos resumos "pontuacaoMaxima".
+21:16:43.555 Error Message: Failed to convert argument from type String to type int. For input string: "pontuacaoMaxima"
+21:16:43.555 Specification: specs\producao_intelectual_cientifica.spec:20
+21:16:43.555 Stacktrace: 
+java.lang.NumberFormatException: For input string: "pontuacaoMaxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+21:16:43.557 ## Calcular somatoria dos resumos
+21:16:43.559 * Informar artigo qualis "artigoQualis".
+21:16:43.561 * Informar artigo sem qualis "artigoSemQualis".
+21:16:43.563 * Calcular artigo completo.
+
+21:16:43.571 * Informar simples internacional "simples".
+21:16:43.573 * Informar simples nacional "simples".
+21:16:43.576 * informar simples regional "simples".
+21:16:43.579 * calcular somatorio dos resumos simples "pontuacaoMaxima".
+
+21:16:43.582 Failed Step: calcular somatorio dos resumos simples "pontuacaoMaxima".
+21:16:43.582 Error Message: Failed to convert argument from type String to type int. For input string: "pontuacaoMaxima"
+21:16:43.582 Specification: specs\producao_intelectual_cientifica.spec:28
+21:16:43.582 Stacktrace: 
+java.lang.NumberFormatException: For input string: "pontuacaoMaxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+21:16:43.584 ## Calcular somatorio resumos simples
+21:16:43.586 * Informar artigo qualis "artigoQualis".
+21:16:43.596 * Informar artigo sem qualis "artigoSemQualis".
+21:16:43.601 * Calcular artigo completo.
+
+21:16:43.605 * Informar trabalho completo publicado em anais de congresso cientifico "trabalho".
+21:16:43.608 * Informar editor de livro publicado "editor".
+21:16:43.613 * Informar livro publicado com corpo da editora "livro".
+21:16:43.616 * Informar livro sem selo editora "livro".
+21:16:43.617 * Informar capitulo do livro publicado com corpo da editora "livro".
+21:16:43.618 * Calular pontuacao capitulo do livro publicado com corpo da editora "Pontuacao Maxima"
+
+21:16:43.619 Failed Step: Calular pontuacao capitulo do livro publicado com corpo da editora "Pontuacao Maxima"
+21:16:43.619 Error Message: Failed to convert argument from type String to type int. For input string: "Pontuacao Maxima"
+21:16:43.619 Specification: specs\producao_intelectual_cientifica.spec:38
+21:16:43.619 Stacktrace: 
+java.lang.NumberFormatException: For input string: "Pontuacao Maxima"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.thoughtworks.gauge.execution.StringToIntegerConverter.convert(TypeConverter.java:30)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:98)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+	at com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+21:16:43.620 ## calcular pontuacao do somatorio de jornais e revistar
+21:16:43.621 * Informar artigo qualis "artigoQualis".
+21:16:43.622 * Informar artigo sem qualis "artigoSemQualis".
+21:16:43.627 * Calcular artigo completo.
+
+21:16:43.629 * Informar disertacao mestrado defendica e aprovada "Disertacao".
+21:16:43.630 * Informar tese de doutorado defendia e aprovada "Tese".
+
+21:16:43.630 * Calcular soma de todas as producaoes cientificas.
+21:16:43.632 C:\Users\eliez\IdeaProjects\TestesAceitacao\specs\producao_intelectual_cientifica.spec:60 No steps found in scenario
+21:16:43.736 Plugin [Html Report] with pid [5692] has exited
+21:16:43.837 Specifications:	2 executed	1 passed	1 failed	0 skipped
+21:16:43.837 Scenarios:	10 executed	7 passed	3 failed	2 skipped
+21:16:43.839 
+Total time taken: 961ms
+21:16:43.840 Updates are available. Run gauge --check-updates for more info.
+23:09:55.764 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:16 Multiple spec headings found in same file => 'Descricao de Regime'
+23:09:55.781 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:31 Multiple spec headings found in same file => 'Nome do docente'
+23:09:55.782 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:45 Multiple spec headings found in same file => 'Data de Inicio'
+23:09:55.783 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:58 Multiple spec headings found in same file => 'Data de fim'
+23:09:55.783 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:71 Multiple spec headings found in same file => 'Nota Chefia'
+23:09:55.783 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:85 Multiple spec headings found in same file => 'Nota da  Avaliacao do Docente'
+23:09:55.783 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:88 Duplicate scenario definition 'Nota Valida' found in the same specification => 'Nota Valida'
+23:09:55.784 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:94 Duplicate scenario definition 'Nota Invalida' found in the same specification => 'Nota Invalida'
+23:09:55.784 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:99 Multiple spec headings found in same file => 'Estágio Pos Doutoral ou Senior'
+23:09:55.784 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:111 Multiple spec headings found in same file => 'Cargo de Direcao'
+23:09:55.784 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:124 Multiple spec headings found in same file => 'Pos Graduacao'
+23:09:55.785 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:137 Multiple spec headings found in same file => 'Afastamento'
+23:09:55.785 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:152 Multiple spec headings found in same file => 'Avaliacao Parcial'
+23:09:55.785 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:166 Multiple spec headings found in same file => 'Numero de Meses'
+23:09:55.785 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:181 Multiple spec headings found in same file => 'Divisor'
+23:09:55.788 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:194 Multiple spec headings found in same file => 'Nota da CAD'
+23:09:55.790 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:208 Multiple spec headings found in same file => 'Atividades de Ensino expressoes'
+23:09:55.791 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:211 Duplicate scenario definition 'Expressoes' found in the same specification => 'Expressoes'
+23:09:55.800 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:225 Duplicate scenario definition 'Expressoes Invalidas' found in the same specification => 'Expressoes Invalidas'
+23:09:55.802 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:233 Multiple spec headings found in same file => 'Consolidacao'
+23:09:55.805 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:236 Duplicate scenario definition 'Expressoes' found in the same specification => 'Expressoes'
+23:09:55.807 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:241 Duplicate scenario definition 'Expressoes Invalidas' found in the same specification => 'Expressoes Invalidas'
+23:09:55.809 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste.spec:246 Multiple spec headings found in same file => 'Producao Intelectual'
+23:09:55.815 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste2.spec:56 Dynamic parameter not terminated => 'atividadesCoordenacao + atividadesExtensao < "0"'
+23:09:55.817 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste2.spec:83 Dynamic parameter not terminated => 'ch <= "0"'
+23:09:55.820 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste2.spec:43 Multiple spec headings found in same file => 'Consolidação'
+23:09:55.822 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste2.spec:58 Multiple spec headings found in same file => 'Direção e função gratificada'
+23:09:55.823 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste2.spec:68 Multiple spec headings found in same file => 'Atividades administrativas'
+23:09:55.824 [ParseError] C:\Users\eliez\Desktop\TesteAceitacaoSaep\project\specs\CasoTeste2.spec:87 Multiple spec headings found in same file => 'Atividades administrativas'
+23:09:56.804 Checking updates...
+23:10:26.220 Runner connection error: Timed out connecting to [::]:52731
+23:10:26.220 Error while killing runner: invalid argument
+23:10:26.220 Failed to start gauge API: Timed out connecting to [::]:52731
