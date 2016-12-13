@@ -1,8 +1,8 @@
 {
-	"Flags": {},
+	"Flags": {
+		"-simple-console": "true"
+	},
 	"FailedItems": [
-		"specs\\producao_intelectual_cientifica.spec:30",
-		"specs\\producao_intelectual_cientifica.spec:10",
-		"specs\\producao_intelectual_cientifica.spec:22"
+		"specs\\atividade_ensino.spec:12"
 	]
 }
